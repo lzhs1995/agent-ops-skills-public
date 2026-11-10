@@ -2,7 +2,7 @@
 
 # Agent Ops Skills
 
-[繁體中文](README.zh-TW.md) · [Agent compatibility](docs/AGENT_COMPATIBILITY.md) · [Installation](docs/INSTALLATION.md)
+[繁體中文](README.zh-TW.md) · [Agent compatibility](docs/AGENT_COMPATIBILITY.md) · [Installation](docs/INSTALLATION.md) · [CI](https://github.com/lzhs1995/agent-ops-skills-public/actions/workflows/test.yml)
 
 Two portable skills for verified Baidu Netdisk transfers and bounded local disk maintenance. Python 3.11+; the core has no third-party Python dependencies.
 
@@ -40,6 +40,6 @@ Use `tools/secret_check.py --root .` for an exported folder without Git history.
 
 ## Release status
 
-**Prepared source snapshot.** Target repository: [lzhs1995/agent-ops-skills-public](https://github.com/lzhs1995/agent-ops-skills-public).
+**Published source snapshot:** [lzhs1995/agent-ops-skills-public](https://github.com/lzhs1995/agent-ops-skills-public).
 
-The original source snapshot did not include a `LICENSE` file; this export adds no new license. Preparing these files does not create or push a repository, change installed runtimes, or authorize a transfer or cleanup. Original private history, device profiles and operational receipts are not included. See [publication notes](docs/PUBLICATION.md).
+The original source snapshot did not include a `LICENSE` file; this export adds no new license. Downloading the repository does not automatically install skills or change installed runtimes. Transfers and cleanup require their own authorization. Original private history, device profiles and operational receipts are not included. See [publication notes](docs/PUBLICATION.md).

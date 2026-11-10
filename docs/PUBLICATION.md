@@ -1,19 +1,25 @@
 # Publication notes / 發布說明
 
-This is a prepared source snapshot for [lzhs1995/agent-ops-skills-public](https://github.com/lzhs1995/agent-ops-skills-public), separate from the original private repository and its history. Preparing files does not create or push that repository. Python implementation, tests and installer behavior remain unchanged; this final preparation updates only publication documentation.
+This source snapshot is published at [lzhs1995/agent-ops-skills-public](https://github.com/lzhs1995/agent-ops-skills-public). It is separate from the original private repository; the original private Git history is not included.
 
 The original source snapshot did not include a `LICENSE` file. This export does not introduce MIT or another new license. No third-party source ownership restriction was identified in the bounded export review; this statement is not a full provenance audit.
 
-此快照準備用於 [lzhs1995/agent-ops-skills-public](https://github.com/lzhs1995/agent-ops-skills-public)，與原私人儲存庫及其歷史分開。準備檔案不會建立或推送該儲存庫。Python 實作、測試與安裝行為不變；本次最終準備僅更新發布文件。
+此來源快照已發布至 [lzhs1995/agent-ops-skills-public](https://github.com/lzhs1995/agent-ops-skills-public)，與原私人儲存庫分開，不包含原私人 Git 歷史。
 
 原來源快照沒有附上 `LICENSE`；本次匯出不新增 MIT 或其他授權條款。有限範圍的匯出審查未發現具體第三方來源歸屬限制，此結果不代表完整來源稽核。
 
-## Verification and release boundary / 驗證與發布界線
+## Usage and CI / 使用與 CI
 
-Reuse the recorded fixture suite and isolated installer checks while their code and tests remain byte-for-byte unchanged. Check secrets, private identifiers and links against the exact final snapshot. If a separate repository is initialized, inspect only its new index/history before pushing; do not import or rescan the original private history to publish this snapshot.
+Start with the [command interfaces](../README.md#try-the-command-interfaces), [skill entrypoints](../README.md#use-with-an-agent), and [installation guide](INSTALLATION.md). Downloading this repository does not automatically install skills or change installed runtimes. The installer defaults to a preview; transfers and cleanup require their own authorization.
 
-When publishing is separately authorized, check that the target repository still has the expected state, commit only this snapshot, and verify the public commit and an independent readback. Keep local audit reports, source provenance records, credentials, profiles, account identifiers, runtime receipts and installed releases outside the repository.
+The [Portable checks workflow](https://github.com/lzhs1995/agent-ops-skills-public/actions/workflows/test.yml) runs the secret check and isolated fixture suite on Linux and Windows. CI results do not establish live account access or automatic discovery in an agent client. See [agent compatibility](AGENT_COMPATIBILITY.md).
 
-只要程式碼與測試逐位元組相同，就沿用已記錄的合成測試及隔離安裝驗證；對最終快照另核秘密、私人識別資料與連結。另建儲存庫後，只檢查新索引與新歷史，不匯入或重掃原私人歷史來發布本快照。
+從[命令介面](../README.zh-TW.md#先檢查命令介面)、[技能入口](../README.zh-TW.md#跨-agent-使用)及[安裝說明](INSTALLATION.md)開始。下載儲存庫不會自動安裝技能或變更已安裝版本。安裝器預設為預覽；傳輸或清理需要個別授權。
 
-發布依其具體授權另行執行：先核目標儲存庫狀態，再僅提交本快照，最後核公開 commit 與獨立回下載。本機稽核報告、來源紀錄、憑據、設定、帳號識別資料、執行回執和已安裝版本不屬於公開內容。
+[Portable checks 工作流程](https://github.com/lzhs1995/agent-ops-skills-public/actions/workflows/test.yml)在 Linux 與 Windows 上執行秘密檢查和隔離的合成測試。CI 結果不代表真實帳號可用，或 Agent 客戶端已自動載入技能；詳見[相容性說明](AGENT_COMPATIBILITY.md)。
+
+## Excluded local material / 不包含的本機資料
+
+Local audit reports, source provenance records, credentials, profiles, account identifiers, operational receipts and installed releases are excluded from this repository.
+
+本機稽核報告、來源紀錄、憑據、設定、帳號識別資料、操作回執和已安裝版本不屬於公開內容。

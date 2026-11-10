@@ -2,7 +2,7 @@
 
 # Agent Ops Skills
 
-[English](README.md) · [跨 Agent 相容性](docs/AGENT_COMPATIBILITY.md) · [安裝說明](docs/INSTALLATION.md)
+[English](README.md) · [跨 Agent 相容性](docs/AGENT_COMPATIBILITY.md) · [安裝說明](docs/INSTALLATION.md) · [CI](https://github.com/lzhs1995/agent-ops-skills-public/actions/workflows/test.yml)
 
 提供兩項可攜技能：百度網盤傳輸驗證與有界的本機磁碟維護。需要 Python 3.11 以上；核心僅使用 Python 標準函式庫。
 
@@ -40,6 +40,6 @@ python3 -B tools/secret_check.py --history
 
 ## 發布狀態
 
-**已準備的來源快照。** 目標儲存庫：[lzhs1995/agent-ops-skills-public](https://github.com/lzhs1995/agent-ops-skills-public)。
+**來源快照已發布：** [lzhs1995/agent-ops-skills-public](https://github.com/lzhs1995/agent-ops-skills-public)。
 
-原來源快照沒有附上 `LICENSE` 檔案，本次匯出未新增授權條款。準備這些檔案不會建立或推送儲存庫、變更已安裝版本，也不代表授權傳輸或清理；未攜帶原私人 Git 歷史、裝置設定或操作回執。詳見[發布說明](docs/PUBLICATION.md)。
+原來源快照沒有附上 `LICENSE` 檔案，本次匯出未新增授權條款。下載儲存庫不會自動安裝技能或變更已安裝版本；傳輸或清理需要個別授權。未攜帶原私人 Git 歷史、裝置設定或操作回執。詳見[發布說明](docs/PUBLICATION.md)。

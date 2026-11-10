@@ -1,0 +1,10 @@
+[project]
+name = "agent-ops-skills"
+version = "0.1.0"
+description = "Portable skills for verified Baidu transfers and bounded disk maintenance"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.unittest]
+start-directory = "tests"
+

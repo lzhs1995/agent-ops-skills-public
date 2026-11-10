@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<title id="title">Agent Ops Skills</title><desc id="desc">Two transfer arrows surround a checked storage block, representing verified operations.</desc>
+<rect width="512" height="512" rx="112" fill="#102B3F"/>
+<path d="M132 192a145 145 0 0 1 230-42" fill="none" stroke="#70E5C8" stroke-width="28" stroke-linecap="round"/>
+<path d="m350 112 21 48-53 3" fill="none" stroke="#70E5C8" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M380 320a145 145 0 0 1-230 42" fill="none" stroke="#87BDF8" stroke-width="28" stroke-linecap="round"/>
+<path d="m162 400-21-48 53-3" fill="none" stroke="#87BDF8" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="m256 166 81 46v91l-81 46-81-46v-91z" fill="#F2F8FF"/>
+<path d="m214 256 29 30 57-65" fill="none" stroke="#167A68" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

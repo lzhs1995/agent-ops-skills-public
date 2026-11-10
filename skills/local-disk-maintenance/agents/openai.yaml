@@ -1,0 +1,7 @@
+interface:
+  display_name: "本地磁盘快速治理"
+  short_description: "先查真实占用，固定授权清单保全重要文件，再验证实际可用空间"
+  default_prompt: "使用 $local-disk-maintenance 检查磁盘实际容量并规划当前授权范围内的清理。"
+policy:
+  allow_implicit_invocation: true
+

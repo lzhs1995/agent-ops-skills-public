@@ -1,0 +1,7 @@
+interface:
+  display_name: "百度网盘可靠传输"
+  short_description: "复用本机登录，上传前核分片边界，原任务续传并独立下载验真"
+  default_prompt: "使用 $baidu-netdisk-transfer 检查当前百度网盘入口并规划可恢复的传输。"
+policy:
+  allow_implicit_invocation: true
+
